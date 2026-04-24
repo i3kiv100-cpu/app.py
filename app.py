@@ -37,17 +37,17 @@ if check_password():
         {
             "message": "فضيحه القحبان الاولى",
             "url": "https://continental-tomato-qxq0zmekwt.edgeone.app/f9p75pf%20(ييييييييييييييييييييييييييييي%20(1).mp3",
-            "image_url": "https://implicit-crimson-st2bbo1q1z.edgeone.app/Screenshot%202026-04-01%20181109.png"
+            "image_url": ""
         },
         {
             "message": "فضيحه القحبان 2",
             "url": "https://energetic-turquoise-2grr3zfums.edgeone.app/bmr4rrt%20(1).mp3",
-            "image_url": "https://implicit-crimson-st2bbo1q1z.edgeone.app/Screenshot%202026-04-01%20181109.png"
+            "image_url": ""
         },
         {
             "message": "فضيحه القحبان تركي 3",
-            "url": "https://vast-chocolate-d76pznjlr3.edgeone.app/تركي%20الممحون.mp3",
-            "image_url": "https://implicit-crimson-st2bbo1q1z.edgeone.app/Screenshot%202026-04-01%20181109.png"
+            "url": "",
+            "image_url": ""
         },
         {
             "message": "فضيحه القحبان 4",
