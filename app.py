@@ -35,7 +35,8 @@ if check_password():
     st.title(" معرض الفيديو والرسائل")
 
     # قائمة البيانات
-   videos_data = [
+   videos_data = 
+[
         {
             "message": "فضيحه القحبان الاولى",
             "url": "https://continental-tomato-qxq0zmekwt.edgeone.app/f9p75pf%20(ييييييييييييييييييييييييييييي%20(1).mp3",
