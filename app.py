@@ -1,10 +1,8 @@
 import streamlit as st
 
-# إعدادات الصفحة
-st.set_page_config(page_title="موقع خاص ومحمي لفضايح القحبان نواف ", layout="centered")
+st.set_page_config(page_title="موقع خاص ومحمي لفضايح القحبان نواف + فضايح FC  ", layout="centered")
 
-# --- كلمة السر ---
-PASSWORD = "101909"
+PASSWORD = "20299911"
 
 def check_password():
     """دالة للتحقق من الرمز المكتوب"""
@@ -14,8 +12,7 @@ def check_password():
     if st.session_state["password_correct"]:
         return True
 
-    # شاشة إدخال الرمز
-    st.title("🔒 موقع فضايح نواف !!!!!!!!!")
+    st.title("🔒 موقع خاص ومحمي لفضايح القحبان نواف + فضايح FC  !!!!!!!!!")
     user_input = st.text_input("حط الرمز الخاص عشان تشوف فضايحه:", type="password")
 
     if st.button("دخول"):
@@ -23,16 +20,14 @@ def check_password():
             st.session_state["password_correct"] = True
             st.rerun()
         else:
-            st.error("❌ الرمز غير صحيح، حاول مرة أخرى.")
+            st.error(" الرمز غير صحيح، حاول مرة أخرى.")
     return False
 
-# --- تشغيل التطبيق ---
+
 if check_password():
-    # هنا يوضع المحتوى الذي لا يظهر إلا بعد كتابة الرمز
     st.success("دخلت لموقع فضايح القحبان !!!!!!!")
     st.title("معرض الفيديو والرسائل")
 
-    # قائمة البيانات (تم تصحيح المسافة هنا)
     videos_data = [
         {
             "message": "فضيحه القحبان نواف 1",
@@ -66,22 +61,18 @@ if check_password():
         }
     ]
 
-    # عرض المقاطع
     for item in videos_data:
         with st.container():
             st.markdown(f"### {item['message']}")
             
-            # إضافة عرض الصورة هنا
             if item["image_url"].startswith("http"):
                 st.image(item["image_url"], use_container_width=True)
             
-            # عرض الصوت
             if item["url"].startswith("http"):
                 st.audio(item['url'], format="audio/mp3")
                 
             st.write("---")
 
-    # زر لتسجيل الخروج
     if st.button("تسجيل الخروج"):
         st.session_state["password_correct"] = False
         st.rerun()
