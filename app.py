@@ -35,17 +35,38 @@ if check_password():
     st.title(" معرض الفيديو والرسائل")
 
     # قائمة البيانات
-    videos_data = [
+   videos_data = [
         {
             "message": "فضيحه القحبان الاولى",
-            "url": "https://continental-tomato-qxq0zmekwt.edgeone.app/f9p75pf%20(ييييييييييييييييييييييييييييي%20(1).mp3"
+            "url": "https://continental-tomato-qxq0zmekwt.edgeone.app/f9p75pf%20(ييييييييييييييييييييييييييييي%20(1).mp3",
+            "image_url": "https://implicit-crimson-st2bbo1q1z.edgeone.app/Screenshot%202026-04-01%20181109.png"
         },
         {
             "message": "فضيحه القحبان 2",
-            "url": "https://energetic-turquoise-2grr3zfums.edgeone.app/bmr4rrt%20(1).mp3"
+            "url": "https://energetic-turquoise-2grr3zfums.edgeone.app/bmr4rrt%20(1).mp3",
+            "image_url": "https://implicit-crimson-st2bbo1q1z.edgeone.app/Screenshot%202026-04-01%20181109.png"
+        },
+        {
+            "message": "فضيحه القحبان تركي  3",
+            "url": "https://vast-chocolate-d76pznjlr3.edgeone.app/تركي%20الممحون.mp3",
+            "image_url": "https://implicit-crimson-st2bbo1q1z.edgeone.app/Screenshot%202026-04-01%20181109.png"
+        },
+        {
+            "message": "فضيحه القحبان 4",
+            "url": "رابط_الملف_الصوتي_هنا",
+            "image_url": "رابط_الصورة_هنا"
+        },
+        {
+            "message": "فضيحه القحبان 5",
+            "url": "رابط_الملف_الصوتي_هنا",
+            "image_url": "رابط_الصورة_هنا"
+        },
+        {
+            "message": "فضيحه القحبان 6",
+            "url": "رابط_الملف_الصوتي_هنا",
+            "image_url": "رابط_الصورة_هنا"
         }
     ]
-
     # عرض المقاطع
     for item in videos_data:
         with st.container():
