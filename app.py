@@ -35,18 +35,18 @@ if check_password():
     # قائمة البيانات (تم تصحيح المسافة هنا)
     videos_data = [
         {
-            "message": "فضيحه القحبان الاولى",
+            "message": "فضيحه القحبان نواف 1",
             "url": "https://continental-tomato-qxq0zmekwt.edgeone.app/f9p75pf%20(ييييييييييييييييييييييييييييي%20(1).mp3",
             "image_url": ""
         },
         {
-            "message": "فضيحه القحبان 2",
+            "message": "فضيحه القحبان نواف 2",
             "url": "https://energetic-turquoise-2grr3zfums.edgeone.app/bmr4rrt%20(1).mp3",
             "image_url": ""
         },
         {
             "message": "فضيحه القحبان تركي 3",
-            "url": "",
+            "url": "https://vast-chocolate-d76pznjlr3.edgeone.app/تركي%20الممحون.mp3",
             "image_url": ""
         },
         {
