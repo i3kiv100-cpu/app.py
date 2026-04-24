@@ -2,7 +2,7 @@ import streamlit as st
 
 st.set_page_config(page_title="موقع خاص ومحمي لفضايح القحبان نواف + فضايح FC  ", layout="centered")
 
-PASSWORD = "20299911"
+PASSWORD = "34091837"
 
 def check_password():
     """دالة للتحقق من الرمز المكتوب"""
