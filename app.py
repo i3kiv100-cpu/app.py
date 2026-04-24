@@ -12,7 +12,7 @@ def check_password():
     if st.session_state["password_correct"]:
         return True
 
-    st.title("🔒 موقع خاص ومحمي لفضايح القحبان نواف + فضايح FC  !!!!!!!!!")
+    st.title("🔒 فضايح القحبانين !!!!!!!!!")
     user_input = st.text_input("حط الرمز الخاص عشان تشوف فضايحه:", type="password")
 
     if st.button("دخول"):
