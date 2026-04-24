@@ -37,12 +37,12 @@ if check_password():
     # قائمة البيانات
     videos_data = [
         {
-            "message": "الرسالة الأولى: ذكريات لا تنسى ✨",
-            "url": "https://files.catbox.moe/o4k91d.mp3"
+            "message": "فضيحه القحبان الاولى",
+            "url": "https://continental-tomato-qxq0zmekwt.edgeone.app/f9p75pf%20(ييييييييييييييييييييييييييييي%20(1).mp3"
         },
         {
-            "message": "الرسالة الثانية: أنت شخص مميز 🌟",
-            "url": "https://files.catbox.moe/wxtk54.mp3"
+            "message": "فضيحه القحبان 2",
+            "url": "https://energetic-turquoise-2grr3zfums.edgeone.app/bmr4rrt%20(1).mp3"
         }
     ]
 
