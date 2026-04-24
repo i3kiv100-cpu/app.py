@@ -4,8 +4,7 @@ import streamlit as st
 st.set_page_config(page_title="موقع خاص ومحمي لفضايح القحبان نواف ", layout="centered")
 
 # --- كلمة السر ---
-PASSWORD = "101909"  #
-
+PASSWORD = "101909"
 
 def check_password():
     """دالة للتحقق من الرمز المكتوب"""
@@ -27,16 +26,14 @@ def check_password():
             st.error("❌ الرمز غير صحيح، حاول مرة أخرى.")
     return False
 
-
 # --- تشغيل التطبيق ---
 if check_password():
     # هنا يوضع المحتوى الذي لا يظهر إلا بعد كتابة الرمز
     st.success("دخلت لموقع فضايح القحبان !!!!!!!")
-    st.title(" معرض الفيديو والرسائل")
+    st.title("معرض الفيديو والرسائل")
 
-    # قائمة البيانات
-   videos_data = 
-[
+    # قائمة البيانات (تم تصحيح المسافة هنا)
+    videos_data = [
         {
             "message": "فضيحه القحبان الاولى",
             "url": "https://continental-tomato-qxq0zmekwt.edgeone.app/f9p75pf%20(ييييييييييييييييييييييييييييي%20(1).mp3",
@@ -48,7 +45,7 @@ if check_password():
             "image_url": "https://implicit-crimson-st2bbo1q1z.edgeone.app/Screenshot%202026-04-01%20181109.png"
         },
         {
-            "message": "فضيحه القحبان تركي  3",
+            "message": "فضيحه القحبان تركي 3",
             "url": "https://vast-chocolate-d76pznjlr3.edgeone.app/تركي%20الممحون.mp3",
             "image_url": "https://implicit-crimson-st2bbo1q1z.edgeone.app/Screenshot%202026-04-01%20181109.png"
         },
@@ -68,12 +65,20 @@ if check_password():
             "image_url": "رابط_الصورة_هنا"
         }
     ]
+
     # عرض المقاطع
     for item in videos_data:
         with st.container():
             st.markdown(f"### {item['message']}")
-            # التعديل هنا فقط: تحويل من فيديو إلى صوت
-            st.audio(item['url'], format="audio/mp3")
+            
+            # إضافة عرض الصورة هنا
+            if item["image_url"].startswith("http"):
+                st.image(item["image_url"], use_container_width=True)
+            
+            # عرض الصوت
+            if item["url"].startswith("http"):
+                st.audio(item['url'], format="audio/mp3")
+                
             st.write("---")
 
     # زر لتسجيل الخروج
